@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+<h2>Äldre data - i nya systemet</h2>
+
+<h3>Dagboksblad och nyheter</h3>
+<p>
+    Under jul och nyårshelgen 2020 har alla då existerande data flyttats över till vårt nya system. Nu ligger
+    alla dagboksblad från och med 2007 till och med december 2020 tillgängliga via vårt nya back-end
+    användargränssnitt. Dagboksbladen har kombinerats med notiser/nyheter som tidigare låg separat. Det finns ungefär 400-450 av dessa extra nyheter. Ibland har en extra nyhet skapat ett helt nytt dagboksblad, undantagsvis har en mindre "nyhet" ignorerats (200X - "Vi har problem med internet")&nbsp;och ofta har en nyhet förstärkt ett redan existerande dagboksblad.</p>
+<p> HTML koden i dagboksbladen har testats och vid behov putsats. Rubriker har införts. Alla sidor (som denna) inleds numera med en &lt;h1&gt;Veckodag XX månad YYYY&lt;/h1&gt; rubrik. Underrubriker &lt;h2&gt;..&lt;h5&gt; används vid behov.&nbsp;</p>
+
+<p>En äldre lösning för att visa fotobeskrivning och fotograf, har övergetts till förmån för att lagra denna information i varje fotos "title" attribut. Man får då automatiskt en "fly-over" visning utan att behöva använda inte länge supportade bibliotek. Skulle man vilja förfina denna lösning, gå det att lösa då man enkelt kan extrahera dessa data.</p>
+<h3>Mycket data</h3>
+<p> Det är rätt mycket data allt som allt.&nbsp;
+</p>
+<ul>
+    <li>3 355 dagboksblad
+    </li>
+    <li>1 278 av dessa dagboksblad visar foton. När foton förekommer
+        är det inte ovanligt med mer än en bild, så..
+    </li>
+    <li>2 565 bilder är överförda till fotodatabasen och dess nya web
+        adresser updaterade i texterna.</li>
+</ul>
+<p>
+</p>
+<h3>Foton</h3>
+<p>Alla bilder från dagboken och extra nyheterna lagts
+    in i vår fotodatabas. Både dagboksblad och foton har taggats med
+    nyckelord. Vissa "foton" är inte alls foton utan illustrationer. Dessa ligger nu också tillgängliga via fotodatabasen, men publiceras så klart inte i vårt "galleri".&nbsp;&nbsp;</p>
+<p> Vissa
+    generaliseringar har gjorts. Alla bilder uppladdade från dagboken
+    har preliminärt fått fotoplats "fyrträdgården" i fotodatabasen. Detta är så
+    klart inte alltid sant, men det är totalt mindre arbete att ändra
+    de bilder som är fel, än att lämna det blankt och sedan uppdatera
+    dem alla. </p>
+<p>Många bilder är har taggats med art. Jag har använt det
+    ursprungliga filnamnet för detta. Ofta förekommer RC koden i
+    filnamnet, men ibland istället ett komplett artnamn, fast båda fallen utan svenska tecken.&nbsp;Så testerna har
+    gjorts på "kraka" istället för "kråka" till exempel.&nbsp;Detta
+    ger dock ibland felaktiga träffar (raka/kraka) och&nbsp; även både "ornvrak"
+    och "ormvrak" fångas till exempel via RC
+    koderna med denna algortim. Därför bör alla bilder gås igenom. Jag har själv kollat
+    åren 2007-2011 (tom 05-19) samt 2020. I enstaka fall är jag inte helt
+    säker på art. Det finns ett fåtal bildkompositer (flera bilder
+    sammanfogade till en), där det kan ibland vara knepigt att se
+    vilka arter det är, speciellt från Flommen. Hur många pixlar behövs för att spika en Rörsångare (?)</p>
+<h2>Fördelar</h2>
+<p>
+    Alla dessa ändringar har inte gjorts bara för ändradets skull. I
+    och med detta har vi <strong><em>ett och samma gränssnitt</em> </strong>för att hantera
+    alla dagboksblad från 2007 och framåt. I och med detta kan kan nu
+    lätt gå tillbaka till 14:september 2012 och ändra det där
+    kommatecknet (eller vad det nu är). Se nedan för att exempel (Det är endast ett exempel, det finns inget typo så vitt känt på just denna sida) :-).
+</p>
+<p>
+    <img src="/bilder/maxipics/maxipic-2492.jpg" alt="photo"><span style="font-size: 11px;">Ett
+        exempel ovan - den 21:a oktober 2007.</span>
+</p>
+<p>
+    På samma vis kan vi nu ta fram alla dagboksblad (sedan hedehös!) och visa dem på Websajten på ett gemensamt sätt.
+    Detta är betydelsefullt för framtiden. När <em>nästa</em> omtag
+    görs, så är alla data från 2007 i ett och samma format.</p><p>
+    Vi kan också enkelt söka bland alla dagboksbladstexter, om vi ser ett sådant behov.</p>
+<p>
+    Med alla bilder i fotodatabasen kan vi nu enkelt söka fram alla bilder
+    märkta med "trädgårdsträdkrypare" till exempel, oavsett
+    sammanhanget de togs och användes ursprungligen.</p>
+<h2>Nästa steg</h2>
+<p>Nu visar jag ett förslag på en första sida för falsterbofågelstation.se. Jag kommer stegvis att släppa ytterligare sektioner av Web sajten. Dessa versioner betraktar jag some redo för publicering.</p>
+<p>I och med att jag nu arbetat tämligen intensivt med det gränssnitt jag själv byggt (det kallas skämtsamt "<a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food">eat your own dog food</a>" på Engelska) så har jag funnit saker som jag har förbättrat. Alla ideer är inte genomförda, men förhoppningsvis har ett par vassa kanter slippats av lite. </p>
+<h3>Personer - liten uppdatering</h3>
+<p>Vi har traditionellt "taggat" inlägg med initialer, för att visa vem har skrivit vad. Eftersom jag hoppas att alltfler ska bidra i framgent med inlägg, så växer denna fråga om initialer. Dessutom, att lägga in dem i dagboken, kräver för stunden lite HTML handlag.&nbsp;</p>
+<p>Jag har därför lagt till en fält ("signatur") i persontabellen, och öppnat för att hantera detta via personmodulen. Alla personer <em>behöver </em>inte ha en signatur, och personer med signatur <em>behöver </em>inte vara användare i systemet. Så det är alltså fritt att lämna fältet blankt, men om man fyller i något så måste detta vara unikt. Traditionellt är initialer i versaler: LK, SE, KP, BM, GW, MOK, osv. Jag har för stunden inte tvingat detta i systement. Det är med andra ord möjligt att peta in en ny signatur "Lk" till exempel. Person modulen har uppdaterats med alla signaturer som tidigare använts i dagboken. På så vis försäkrar vi oss om unika signaturer framgent.</p><p>Personmodulen&nbsp;har i och med detta fått version 1.01.</p><p>En knapp har också lagts till i dagbokseditorn, så att man kan infoga initialer lätt och smidigt.&nbsp;(<span title="Magnus Grylle">MGS</span>)</p>
+<p><br></p>
+<p><br></p>
+
+</body>
+</html>

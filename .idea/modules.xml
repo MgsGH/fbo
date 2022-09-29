@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../adb/.idea/adb.iml" filepath="$PROJECT_DIR$/../adb/.idea/adb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../boback/.idea/boback.iml" filepath="$PROJECT_DIR$/../boback/.idea/boback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/fbo.iml" filepath="$PROJECT_DIR$/.idea/fbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../oldfbo/.idea/oldfbo.iml" filepath="$PROJECT_DIR$/../oldfbo/.idea/oldfbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../oldfbo/homedir/public_html/.idea/public_html.iml" filepath="$PROJECT_DIR$/../oldfbo/homedir/public_html/.idea/public_html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../trektellen/.idea/trektellen.iml" filepath="$PROJECT_DIR$/../trektellen/.idea/trektellen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../oldfbo/homedir/untitled/.idea/untitled.iml" filepath="$PROJECT_DIR$/../oldfbo/homedir/untitled/.idea/untitled.iml" />
+    </modules>
+  </component>
+</project>

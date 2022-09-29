@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../boback/getBONewsAsRSS.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../boback/helpers" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../boback/helpers/bluemall.css" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/htdocs/aahelpers/db-lt.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/aahelpers/fbo-bluemallXXX.css" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/bah/fbo-bluemall.css" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/bah/mv5.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/blog/blog.js" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/dagbokenXXX/dagbokenComposeDagensStrack.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/dagbokenXXX/dagbokenComposeDateNavigationPanel.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/dagbokenXXX/dagbokenComposePage.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/dagbokenXXX/functions.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/dagbokenXXX/indexx.php" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/htdocs/db/connect.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/fbo-helpers/trenddiagram.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/omoss/images/brevduva.jpg" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/omoss/images/redcross.jpg" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/rastrakning/index-tom.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/rastrakning/rast-functions.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/rss/test-readADay.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/strack/art-sasong/art-sasong.js" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/strack/art-sasong/index.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/strack/dagssummor/dagssummor.js" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/strack/dagssummor/getStrackDataForDate.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/strack/dagssummor/getStrackDates.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/strack/dagssummor/index.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/strack/strack-functions.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/htdocs/trektellen/trektellenSql.php" charset="windows-1252" />
+    <file url="PROJECT" charset="windows-1252" />
+  </component>
+</project>

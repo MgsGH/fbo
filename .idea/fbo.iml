@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/htdocs/bilder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/htdocs/calendar" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/htdocs/db" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/htdocs/fbo-helpers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/htdocs/news" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/htdocs/rast" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/htdocs/dagbokenXXX" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="public_html" />
+    <orderEntry type="module" module-name="adb" />
+    <orderEntry type="module" module-name="oldfbo" />
+    <orderEntry type="module" module-name="untitled" />
+    <orderEntry type="module" module-name="boback" />
+    <orderEntry type="module" module-name="trektellen" />
+  </component>
+</module>
